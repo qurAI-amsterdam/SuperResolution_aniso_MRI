@@ -1,0 +1,684 @@
+test:
+- !!python/tuple
+  - '90005_0'
+  - 74
+- !!python/tuple
+  - MRI0410_0
+  - 75
+- !!python/tuple
+  - '90081_0'
+  - 76
+- !!python/tuple
+  - '90012_0'
+  - 77
+- !!python/tuple
+  - '90063_1'
+  - 78
+- !!python/tuple
+  - '90042_0'
+  - 79
+- !!python/tuple
+  - '90049_0'
+  - 80
+- !!python/tuple
+  - '90015_1'
+  - 81
+- !!python/tuple
+  - '90077_0'
+  - 82
+- !!python/tuple
+  - '90080_0'
+  - 83
+- !!python/tuple
+  - '90049_1'
+  - 84
+- !!python/tuple
+  - '90052_0'
+  - 85
+- !!python/tuple
+  - NLUTR22_5_0
+  - 86
+- !!python/tuple
+  - '90004_0'
+  - 87
+- !!python/tuple
+  - '90048_0'
+  - 88
+- !!python/tuple
+  - '90044_0'
+  - 89
+- !!python/tuple
+  - '90020_0'
+  - 90
+- !!python/tuple
+  - NLUTR25_4_0
+  - 91
+- !!python/tuple
+  - '90046_0'
+  - 92
+- !!python/tuple
+  - '90000_1'
+  - 93
+- !!python/tuple
+  - '90026_0'
+  - 94
+- !!python/tuple
+  - '90082_0'
+  - 95
+- !!python/tuple
+  - '90087_0'
+  - 96
+- !!python/tuple
+  - '90058_0'
+  - 97
+- !!python/tuple
+  - '90013_0'
+  - 98
+- !!python/tuple
+  - '90007_0'
+  - 99
+- !!python/tuple
+  - '90085_1'
+  - 100
+- !!python/tuple
+  - '90060_0'
+  - 101
+- !!python/tuple
+  - '90072_0'
+  - 102
+- !!python/tuple
+  - '90086_0'
+  - 103
+- !!python/tuple
+  - '90022_0'
+  - 104
+- !!python/tuple
+  - '90041_2'
+  - 105
+- !!python/tuple
+  - '90018_2'
+  - 106
+- !!python/tuple
+  - '90050_1'
+  - 107
+- !!python/tuple
+  - '90076_0'
+  - 108
+- !!python/tuple
+  - '90071_0'
+  - 109
+- !!python/tuple
+  - '90006_0'
+  - 110
+- !!python/tuple
+  - '90057_0'
+  - 111
+- !!python/tuple
+  - '90017_0'
+  - 112
+- !!python/tuple
+  - MRI0406_0
+  - 113
+- !!python/tuple
+  - '90059_0'
+  - 114
+- !!python/tuple
+  - '90068_0'
+  - 115
+- !!python/tuple
+  - '90089_0'
+  - 116
+- !!python/tuple
+  - '90025_0'
+  - 117
+- !!python/tuple
+  - '90001_0'
+  - 118
+- !!python/tuple
+  - '90027_0'
+  - 119
+- !!python/tuple
+  - '90016_0'
+  - 120
+- !!python/tuple
+  - '90065_0'
+  - 121
+- !!python/tuple
+  - NLUTR18_2_2
+  - 122
+- !!python/tuple
+  - NLAMS49_4_1
+  - 123
+- !!python/tuple
+  - NLUTR50_17_0
+  - 124
+- !!python/tuple
+  - '30054_0'
+  - 125
+- !!python/tuple
+  - NLUTR69_7_0
+  - 126
+- !!python/tuple
+  - '30130_0'
+  - 127
+- !!python/tuple
+  - NLUTR26_5_0
+  - 128
+- !!python/tuple
+  - '30135_0'
+  - 129
+- !!python/tuple
+  - NLAMS26_2_1
+  - 130
+- !!python/tuple
+  - NLUTR77_2_1
+  - 131
+- !!python/tuple
+  - NL0252200_0
+  - 132
+- !!python/tuple
+  - NLMUM7_3_3
+  - 133
+- !!python/tuple
+  - NL0256201_0
+  - 134
+- !!python/tuple
+  - NLUTR26_4_1
+  - 135
+- !!python/tuple
+  - NLUTR42_2_2
+  - 136
+- !!python/tuple
+  - '40001_0'
+  - 137
+- !!python/tuple
+  - NLUTR69_2_0
+  - 138
+- !!python/tuple
+  - NLUTR31_4_1
+  - 139
+- !!python/tuple
+  - NLUTR56_4_0
+  - 140
+- !!python/tuple
+  - NLUTR50_9_1
+  - 141
+- !!python/tuple
+  - NLUTR64_5_0
+  - 142
+- !!python/tuple
+  - NLUTR77_3_1
+  - 143
+- !!python/tuple
+  - NLUTR78_1_2
+  - 144
+- !!python/tuple
+  - NLUTR30_17_1
+  - 145
+- !!python/tuple
+  - NLUTR22_6_0
+  - 146
+- !!python/tuple
+  - NLUTR4_8_1
+  - 147
+- !!python/tuple
+  - NLUTR46_5_2
+  - 148
+- !!python/tuple
+  - NLUTR15_13_1
+  - 149
+- !!python/tuple
+  - NLUTR64_2_1
+  - 150
+- !!python/tuple
+  - NLUTR31_3_1
+  - 151
+- !!python/tuple
+  - NLUTR69_6_0
+  - 152
+- !!python/tuple
+  - NLUTR64_2_0
+  - 153
+- !!python/tuple
+  - NLUTR46_5_1
+  - 154
+- !!python/tuple
+  - NLUTR31_3_0
+  - 155
+- !!python/tuple
+  - '30053_0'
+  - 156
+- !!python/tuple
+  - '90098_0'
+  - 157
+- !!python/tuple
+  - NLUTR69_4_0
+  - 158
+- !!python/tuple
+  - NLGRO4_2_2
+  - 159
+- !!python/tuple
+  - NLUTR26_7_0
+  - 160
+- !!python/tuple
+  - NLUTR64_3_0
+  - 161
+- !!python/tuple
+  - NLUTR18_6_1
+  - 162
+- !!python/tuple
+  - NLUTR29_5_1
+  - 163
+- !!python/tuple
+  - NLUTR6_23_2
+  - 164
+- !!python/tuple
+  - '30143_0'
+  - 165
+- !!python/tuple
+  - NLUTR56_3_0
+  - 166
+- !!python/tuple
+  - NLUTR42_2_1
+  - 167
+- !!python/tuple
+  - NLAMS49_4_0
+  - 168
+- !!python/tuple
+  - '30137_0'
+  - 169
+- !!python/tuple
+  - NLUTR70_2_1
+  - 170
+- !!python/tuple
+  - '40000_0'
+  - 171
+- !!python/tuple
+  - NLUTR34_3_1
+  - 172
+- !!python/tuple
+  - NLUTR70_2_2
+  - 173
+- !!python/tuple
+  - NLUTR46_2_3
+  - 174
+- !!python/tuple
+  - NLAMS48_4_0
+  - 175
+- !!python/tuple
+  - NLUTR6_24_2
+  - 176
+- !!python/tuple
+  - NLUTR57_2_0
+  - 177
+- !!python/tuple
+  - NLUTR30_17_0
+  - 178
+- !!python/tuple
+  - NLUTR30_11_0
+  - 179
+- !!python/tuple
+  - NL0252100_0
+  - 180
+- !!python/tuple
+  - NLUTR17_3_1
+  - 181
+- !!python/tuple
+  - NLUTR11_8_1
+  - 182
+- !!python/tuple
+  - NLUTR35_2_2
+  - 183
+- !!python/tuple
+  - NLUTR25_1_2
+  - 184
+- !!python/tuple
+  - NLUTR72_2_2
+  - 185
+- !!python/tuple
+  - NLUTR47_3_0
+  - 186
+- !!python/tuple
+  - NL0255100_1
+  - 187
+- !!python/tuple
+  - NLUTR25_1_3
+  - 188
+- !!python/tuple
+  - NL0255120_1
+  - 189
+- !!python/tuple
+  - NLUTR6_23_5
+  - 190
+- !!python/tuple
+  - NLGRO41_6_1
+  - 191
+- !!python/tuple
+  - NLUTR73_1_1
+  - 192
+- !!python/tuple
+  - NLUTR69_3_1
+  - 193
+- !!python/tuple
+  - NLUTR25_1_4
+  - 194
+- !!python/tuple
+  - NLUTR70_2_3
+  - 195
+- !!python/tuple
+  - NLAMS32_4_1
+  - 196
+- !!python/tuple
+  - NLGRO20_5_1
+  - 197
+- !!python/tuple
+  - NLUTR72_2_0
+  - 198
+- !!python/tuple
+  - NLUTR75_1_1
+  - 199
+- !!python/tuple
+  - NLUTR32_6_1
+  - 200
+- !!python/tuple
+  - NLUTR50_12_2
+  - 201
+- !!python/tuple
+  - NLUTR30_15_1
+  - 202
+- !!python/tuple
+  - NLUTR72_2_1
+  - 203
+- !!python/tuple
+  - '30141_0'
+  - 204
+- !!python/tuple
+  - NLUTR69_3_0
+  - 205
+- !!python/tuple
+  - NLUTR2_3_1
+  - 206
+- !!python/tuple
+  - NLUTR26_9_0
+  - 207
+- !!python/tuple
+  - NLUTR30_15_2
+  - 208
+- !!python/tuple
+  - NLUTR41_2_3
+  - 209
+- !!python/tuple
+  - NLAMS48_5_0
+  - 210
+- !!python/tuple
+  - NLUTR47_3_1
+  - 211
+- !!python/tuple
+  - NL0255120_0
+  - 212
+- !!python/tuple
+  - NL256100_2
+  - 213
+- !!python/tuple
+  - NLUTR6_24_3
+  - 214
+- !!python/tuple
+  - NLUTR62_3_0
+  - 215
+- !!python/tuple
+  - NLUTR6_23_4
+  - 216
+- !!python/tuple
+  - NLUTR8_2_1
+  - 217
+- !!python/tuple
+  - '30144_1'
+  - 218
+- !!python/tuple
+  - NLUTR26_8_0
+  - 219
+- !!python/tuple
+  - NLUTR29_4_1
+  - 220
+- !!python/tuple
+  - '90094_0'
+  - 221
+- !!python/tuple
+  - NLUTR3_3_2
+  - 222
+- !!python/tuple
+  - '30023_1'
+  - 223
+- !!python/tuple
+  - NLUTR6_24_1
+  - 224
+- !!python/tuple
+  - NLUTR2_6_2
+  - 225
+- !!python/tuple
+  - '30140_0'
+  - 226
+- !!python/tuple
+  - NLUTR6_23_3
+  - 227
+training:
+- !!python/tuple
+  - NL256200_0
+  - 1
+- !!python/tuple
+  - '90038_0'
+  - 2
+- !!python/tuple
+  - '90005_1'
+  - 3
+- !!python/tuple
+  - '90083_0'
+  - 4
+- !!python/tuple
+  - '90014_0'
+  - 5
+- !!python/tuple
+  - '90031_0'
+  - 6
+- !!python/tuple
+  - '90015_0'
+  - 7
+- !!python/tuple
+  - '90011_0'
+  - 8
+- !!python/tuple
+  - '90010_0'
+  - 9
+- !!python/tuple
+  - '90061_0'
+  - 10
+- !!python/tuple
+  - '90002_0'
+  - 11
+- !!python/tuple
+  - '90034_0'
+  - 12
+- !!python/tuple
+  - '90078_0'
+  - 13
+- !!python/tuple
+  - '90023_0'
+  - 14
+- !!python/tuple
+  - '90018_1'
+  - 15
+- !!python/tuple
+  - '90036_0'
+  - 16
+- !!python/tuple
+  - '90085_0'
+  - 17
+- !!python/tuple
+  - '90088_1'
+  - 18
+- !!python/tuple
+  - '90055_1'
+  - 19
+- !!python/tuple
+  - '90003_0'
+  - 20
+- !!python/tuple
+  - '90073_0'
+  - 21
+- !!python/tuple
+  - '90064_0'
+  - 22
+- !!python/tuple
+  - '90045_0'
+  - 23
+- !!python/tuple
+  - '90084_0'
+  - 24
+- !!python/tuple
+  - '90066_0'
+  - 25
+- !!python/tuple
+  - '90009_2'
+  - 26
+- !!python/tuple
+  - MRI0403_0
+  - 27
+- !!python/tuple
+  - '90037_0'
+  - 28
+- !!python/tuple
+  - '90069_1'
+  - 29
+- !!python/tuple
+  - '90075_0'
+  - 30
+- !!python/tuple
+  - '30046_0'
+  - 31
+- !!python/tuple
+  - NLUTR69_8_0
+  - 32
+- !!python/tuple
+  - NLUTR31_4_2
+  - 33
+- !!python/tuple
+  - NLUTR6_22_2
+  - 34
+- !!python/tuple
+  - '30143_1'
+  - 35
+- !!python/tuple
+  - '30134_1'
+  - 36
+- !!python/tuple
+  - NLUTR64_3_1
+  - 37
+- !!python/tuple
+  - NLUTR6_24_0
+  - 38
+- !!python/tuple
+  - '30146_1'
+  - 39
+- !!python/tuple
+  - NLUTR50_9_2
+  - 40
+- !!python/tuple
+  - NLUTR30_12_1
+  - 41
+- !!python/tuple
+  - NLUTR46_2_2
+  - 42
+- !!python/tuple
+  - NLUTR4_4_0
+  - 43
+- !!python/tuple
+  - '30142_0'
+  - 44
+- !!python/tuple
+  - '90110_0'
+  - 45
+- !!python/tuple
+  - NLEMC4_11_0
+  - 46
+- !!python/tuple
+  - '30134_0'
+  - 47
+- !!python/tuple
+  - NLUTR15_13_2
+  - 48
+- !!python/tuple
+  - NLUTR68_2_1
+  - 49
+- !!python/tuple
+  - NLUTR13_7_0
+  - 50
+- !!python/tuple
+  - '90095_0'
+  - 51
+- !!python/tuple
+  - NLUTR50_13_1
+  - 52
+- !!python/tuple
+  - NLGRO4_8_2
+  - 53
+- !!python/tuple
+  - NLUTR45_3_0
+  - 54
+- !!python/tuple
+  - '30132_0'
+  - 55
+- !!python/tuple
+  - '30145_0'
+  - 56
+- !!python/tuple
+  - NLUTR46_2_4
+  - 57
+- !!python/tuple
+  - NLUTR11_7_0
+  - 58
+- !!python/tuple
+  - NLGRO4_8_1
+  - 59
+- !!python/tuple
+  - NLAMS32_4_0
+  - 60
+- !!python/tuple
+  - NLUTR50_12_3
+  - 61
+- !!python/tuple
+  - NLUTR3_8_0
+  - 62
+- !!python/tuple
+  - NL0251100_0
+  - 63
+- !!python/tuple
+  - NLUTR41_2_1
+  - 64
+- !!python/tuple
+  - NL256100_0
+  - 65
+- !!python/tuple
+  - NLUTR9_3_0
+  - 66
+- !!python/tuple
+  - NLUTR81_1_3
+  - 67
+- !!python/tuple
+  - '90108_1'
+  - 68
+- !!python/tuple
+  - NL256100_1
+  - 69
+- !!python/tuple
+  - NLUTR56_3_1
+  - 70
+validation:
+- !!python/tuple
+  - '30010_0'
+  - 71
+- !!python/tuple
+  - NLUTR64_5_1
+  - 72
+- !!python/tuple
+  - NLUTR69_5_0
+  - 73

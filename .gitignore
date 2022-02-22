@@ -1,3 +1,12 @@
+# custom ignores
+logs/
+data/
+figures/
+*.pkl
+*.npz
+*.xml
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
