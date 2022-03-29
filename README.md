@@ -1,4 +1,4 @@
-# SuperResolution of anisotropic MRI
+# Super-Resolution of anisotropic MRI
 Autoencoding of low-resolution MRI for Super-Resolution of anisotropic MRI
 
 
