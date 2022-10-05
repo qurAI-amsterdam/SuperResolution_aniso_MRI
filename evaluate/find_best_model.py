@@ -211,3 +211,8 @@ if __name__ == "__main__":
                                       downsample_steps=args.downsample_steps, patient_id=patient_id,
                                       limit_4d=True, func_get_trainer=get_trainer_dynamic,
                                       eval_axis=args.eval_axis)
+
+# CUDA_VISIBLE_DEVICES=1 python evaluate/find_best_model.py
+# --exper_dir=~/expers/sr/ACDC/ae_combined/mse_perc_p32_l128_ex01
+# --epoch_range 500 900 --eval_patch_size=128 --eval_axis=0 --dataset ACDC
+

@@ -212,3 +212,7 @@ if __name__ == '__main__':
     torch.cuda.manual_seed(args_dict['seed'])
     rs = np.random.RandomState(args_dict['seed'])
     main()
+
+# python train_cardiac_aesr.py --dataset=ACDC --model=ae_combined --batch_size=12 --test_batch_size=16 --latent=128
+# --latent_width=32 --width=128 --exper_id=pool2_w32_l128_aug160_w005_ex01 --downsample_steps=2 --epochs=900
+# --ex_loss_weight1=0.05 --aug_patch_size=160 --epoch_threshold=500 --output_dir=/home/jorg/expers/sr_bogus
