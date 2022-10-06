@@ -136,26 +136,27 @@ def create_dataset(src_path="~/data/dHCP/", out_path="~/data/dHCP_cropped_256",
     return image_dict
 
 
-def create_split_file(out_path, patid_list=None, split_perc=0.67, rs=np.random.RandomState(1234)):
-
+def create_split_file(out_path, patid_list=None, num_split=(200, 20, 20), rs=np.random.RandomState(1234)):
+    # num_split: indicates split in absolute numbers between training, test and validation sets
     def numpy_array_to_native_python(np_arr) -> list:
         return [val.item() for val in np_arr]
 
     out_path = os.path.expanduser(out_path)
     if patid_list is None:
-        filepath_generator = Path(out_path).rglob('*.nii.gz')
-        patid_list = [int(path_obj.name.replace(".nii.gz", "")) for path_obj in filepath_generator]
+        filepath_generator = Path(out_path).rglob('*_t2w.nii.gz')
+        patid_list = [int(path_obj.name.replace("_t2w.nii.gz", "")) for path_obj in filepath_generator]
 
     if len(patid_list) == 0:
         raise ValueError("ERROR - create split file - no files found in {}".format(out_path))
-    split = tuple((split_perc, 1 - split_perc))
-    num_of_patients = len(patid_list)
+
     ids = rs.permutation(np.array(patid_list))
     # create two lists of files
-    patids_train = numpy_array_to_native_python(ids[:int(split[0] * num_of_patients)])
-    c_size = int(len(patids_train))
-    patids_test = numpy_array_to_native_python(ids[c_size:])
+    train_offset = int(num_split[0])
+    patids_train = numpy_array_to_native_python(ids[:train_offset])
+    patids_test = numpy_array_to_native_python(ids[train_offset:train_offset + int(num_split[1])])
+    patids_val = numpy_array_to_native_python(ids[train_offset + int(num_split[1]):train_offset + int(num_split[1]) + int(num_split[2])])
     split_config = {'training': patids_train,
+                    'validation': patids_val,
                     'test': patids_test}
     output_file = os.path.join(out_path, "train_test_split.yaml")
     print("INFO - Saved split file to {}".format(output_file))

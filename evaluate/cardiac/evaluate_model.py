@@ -11,10 +11,10 @@ from datasets.sunnybrook.dataset import get_all_images as get_all_images_sunnyb
 from evaluate.cardiac.get_datasets import get_cardiac_dataset_generator
 
 
-def create_acdc_volumes(exper_src_path, model_nbr, patid_list, dataset_name="ACDC", eval_axis=0,
-                                eval_patch_size=128, save_volumes=False, downsample_steps=2, compute_percept_loss=True,
+def create_cardiac_volumes(exper_src_path, model_nbr, patid_list, dataset_name, eval_axis=0,
+                                eval_patch_size=128, save_volumes=False, downsample_steps=None, compute_percept_loss=False,
                                 use_original_slice=False, generate_inbetween_slices=True, num_interpolations=None,
-                        interpol_filter=None, output_dir=None, model_nbr_sr=None, resample=False, save_metrics=False):
+                                output_dir=None, model_nbr_sr=None, resample=False, save_metrics=False):
 
     exper_src_path = os.path.expanduser(exper_src_path)
     data_generator = get_cardiac_dataset_generator(dataset_name, patid_list=patid_list)
@@ -130,3 +130,5 @@ def create_acdc_volumes_conventional_interpolation(interpol_filter, patid_list, 
                                            base_out_dir=base_out_dir,
                                            eval_axis=eval_axis)
     return result_metrics_dict
+
+
