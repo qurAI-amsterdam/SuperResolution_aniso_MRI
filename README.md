@@ -37,6 +37,9 @@ To load the correct low-resolution images, you need to specify parameter `--down
 
 **Note**: Important parameter `ex_loss_weight1` specifies hyper-parameter lambda (see journal Eq. 3), to balance reconstruction and synthesis loss.
 
+
+**Note**: Synthetic low-resolution volumes can be re-created (if needed) with function `create_dataset` in `datasets.dHCP.create_dataset.py`.
+
 ### Adult brain MRI (OASIS dataset)
 
 `
